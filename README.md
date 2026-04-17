@@ -18,10 +18,16 @@ State Management: Automatically tracks and labels the last operation performed.
 Clear Function: Reset all values and operations with a single call.
 
 ## 💻 Code Example
-` cpp
+```cpp
 clsCalculator calc1;
+
 calc1.Add(12.5);
-calc1.PrintResult(); `
+calc1.Subtract(2);
+calc1.Multiply(3);
+calc1.PrintResult(); 
+
+// Output: Result After Multiplying 3 is: 31.5
+```
 
 📋 Sample Output
 
